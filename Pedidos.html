@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>PEDIDOS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<h4>Servicios</h4>
+<li><a href="Elmago.html">Inicio</a>
+<li><a href="Lavadero.html">Lavado de Motos</a>
+<li><a href="Gastrobar.html">Gastrobar</a>
+<li><a href="Pedidos.html">Pedidos</a>
+</ul>
+
+<div class="frmTitle">
+<H1 class="frm">Pedidos</H1>
+</div>
+<HR>
+
+<form>
+
+
+
+<fieldset>
+<legend>Informaci&iacute;n del cliente</legend>
+<p><label>Nombre: <input class="info"></label>&nbsp;&nbsp;&nbsp;<label>Apellido: <input class="info"></label></p>
+<p><label>Telefono: <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;<label>Celular: <input class="info" type="tel"></label>
+<p><label>Direcci&oacute;n: <input class="info" type=email></label></p>
+
+</fieldset>
+
+<fieldset>
+<legend> COMIDA </legend>
+<p><label> <input type=checkbox name=size> Chorizos </label></p>
+<p><label> <input type=checkbox name=size> Alitas </label></p>
+<p><label> <input type=checkbox name=size> Costillas </label></p>
+<p><label> <input type=checkbox name=size> Picadas </label></p>
+<p><label> <input type=checkbox name=size> Salchipapas </label></p>
+
+</fieldset>
+
+<fieldset>
+<legend> BEBIDA </legend>
+<p><label> <input type=checkbox> Cerveza </label></p>
+<p><label> <input type=checkbox> Gaseosa </label></p>
+<p><label> <input type=checkbox> Michelada </label></p>
+<p><label> <input type=checkbox> Soda saborizada </label></p>
+
+</fieldset>
+
+<p><label>Hora de llegada del pedido: <input type=time min="11:00" max="21:00" step="900"></label></p>
+<p><label>Delivery instructions: <textarea></textarea></label></p>
+
+<br>
+<div class="center"><button class="button button1">Restaurar orden</button></div>
+<div class="center"><button class="button button1" onClick="alert('Your order was shipped/Su orden fue enviada');">Submit order/Enviar pedido</button></div>
+</form>
+
+
+
+
+
+</body>
+</html>
